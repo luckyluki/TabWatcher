@@ -7,3 +7,4 @@ When uploading huge files or visiting busy websites it's still a tedious task to
 * See the tab status inside the menu
 * Take actions inside the menu
 * Analyse HTTP return code of tabs
+* Check if *parts* of the page are reloaded
