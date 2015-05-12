@@ -1,10 +1,9 @@
 # TabWatcher
 
-When browsing websites it's still a painful task to wait for pages finish loading. Common cases are:
+When uploading huge files or visiting busy websites it's still a tedious task to wait for a page to finish loading. *TabWatcher* is a chrome extension that notifies you when the loading process of some specified tabs was completed. 
 
-* uploading huge files or
-* visiting busy websites (e.g. when buying tickets for a music festival that has just started pre-selling)
+# Upcoming
 
-Instead of observing those pages to finish loading it might be more convenient to keep surfing and be informed just when the page finished loading.
-
-TabWatcher is a Chrome expansion that was developed for this very purpose.
+* See the tab status inside the menu
+* Take actions inside the menu
+* Analyse HTTP return code of tabs
