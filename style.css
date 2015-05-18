@@ -1,0 +1,69 @@
+body {
+	width: 400px;
+	font-size: 14px;
+}
+
+h2 {
+	margin-top: 0;
+	position: relative;
+}
+
+h2 a {
+	color: green;
+	color: #ccc;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+}
+
+label { cursor: pointer; }
+
+button {
+	padding: 5px;
+}
+
+#watchedTabs { margin: 15px 0; }
+
+#version {
+	font-size: 12px;
+	color: #ccc;
+}
+
+.tab {
+	background-color: #fafafa;
+	padding: 5px;
+	position: relative;
+	border-top: 3px solid #F4F4F4;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.tab:hover { background: rgb(253, 253, 253); }
+
+.delete-item {
+	position: absolute;
+	background-color: rgb(255, 124, 124);
+	right: 3px;
+	bottom: 3px;
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+.delete-item:hover {
+	color: rgb(255, 124, 124);
+	background-color: white;
+	cursor: pointer;
+}
+
+#thanks {
+	margin-top: 10px;
+	font-style: italic;
+	color: #ccc;
+	border-top: 1px solid #ccc;
+}
+
+#thanks a { color: #ccc; }
+
+#menu { margin-top: 10px; }

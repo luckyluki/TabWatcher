@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>TabWatcher</title>		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h2>TabWatcher <span id="version"></span> <a id="get-the-code" href="">Get the code</a></h2>
+
+		<button id="add">Add current tab to list</button>
+
+		<div id="watchedTabs">
+		</div>		
+
+		<a href="" id="refresh">Refresh</a>
+		<a href="" id="delete">Delete list</a>
+		<a href="" id="add-all">Add all open tabs</a>
+		
+		<div id="menu">
+			<div>
+				<input type="checkbox" id="chk-add-new"> <label for="chk-add-new">Add new tabs to list</label>
+			</div>
+			<div>
+				<input type="checkbox" id="chk-switch-tabs"> <label for="chk-switch-tabs">Switch to tab when status changes</label> 
+			</div>
+		</div>
+
+		<!-- <div id="thanks">Thanks for using TabWatcher! Get the code on <a href="https://github.com/luckyluki/tabwatch">github.com</a></div> -->
+
+		<script src="popup.js"></script>
+	</body>
+</html>
